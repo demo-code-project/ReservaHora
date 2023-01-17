@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>DuenoController</servlet-name>
+  	<display-name>DuenoController</display-name>
+  	<description></description>
+  	<servlet-class>com.petSmile.controller.DuenoController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MascotaController</servlet-name>
+  	<display-name>MascotaController</display-name>
+  	<description></description>
+  	<servlet-class>com.petSmile.controller.MascotaController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AgendaController</servlet-name>
+  	<display-name>AgendaController</display-name>
+  	<description></description>
+  	<servlet-class>com.petSmile.controller.AgendaController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DuenoController</servlet-name>
+  	<url-pattern>/DuenoController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MascotaController</servlet-name>
+  	<url-pattern>/MascotaController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AgendaController</servlet-name>
+  	<url-pattern>/AgendaController</url-pattern>
+  </servlet-mapping>
+</web-app>

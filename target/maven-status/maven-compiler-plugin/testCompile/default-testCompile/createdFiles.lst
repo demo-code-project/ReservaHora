@@ -1,0 +1,6 @@
+local\test\UserTest.class
+selenium\AddAgendaSteps.class
+selenium\LoginSteps.class
+local\test\AgendaTest.class
+selenium\TestRunner.class
+local\test\DatabaseTest.class

@@ -1,0 +1,391 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-17T01:25:20.857Z",
+        "line": 20,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "test-add-agenda;check-login-is-successful-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997357400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is open1",
+            "match": {
+              "location": "selenium.AddAgendaSteps.browser_is_open1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 453412600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page1",
+            "match": {
+              "location": "selenium.AddAgendaSteps.user_is_on_login_page1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2072282400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin y admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 12
+                },
+                {
+                  "val": "admin",
+                  "offset": 20
+                }
+              ],
+              "location": "selenium.AddAgendaSteps.user_enters_username_y_password1(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56051700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login1",
+            "match": {
+              "location": "selenium.AddAgendaSteps.user_clicks_on_login1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2036853100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is navigated to the home page1",
+            "match": {
+              "location": "selenium.AddAgendaSteps.user_is_navigated_to_the_home_page1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87079200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on agenda",
+            "match": {
+              "location": "selenium.AddAgendaSteps.user_clisk_on_agenda()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2025843400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user es redirigido a la lista de agendas",
+            "match": {
+              "location": "selenium.AddAgendaSteps.user_es_redirigido_a_la_lista_de_agendas()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47042600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user pulsa en Registrar nuevo",
+            "match": {
+              "location": "selenium.AddAgendaSteps.user_pulsa_en_Registrar_nuevo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2030847900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user es redirigido al formulario de registro de agenda",
+            "match": {
+              "location": "selenium.AddAgendaSteps.user_es_redirigido_al_formulario_de_registro_de_agenda()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2065094800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user ingresa 1 y 2023-01-16 07:00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 13
+                },
+                {
+                  "val": "2023-01-16 07:00",
+                  "offset": 17
+                }
+              ],
+              "location": "selenium.AddAgendaSteps.user_ingresa_idMascota_y_fecha(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2158570300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user pulsa en Registrar",
+            "match": {
+              "location": "selenium.AddAgendaSteps.user_pulsa_en_Registrar()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Test Add agenda",
+    "description": "",
+    "id": "test-add-agenda",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/AddAgenda.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-17T01:25:34.927Z",
+        "line": 14,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 534795900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is open",
+            "match": {
+              "location": "selenium.LoginSteps.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 499454700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "selenium.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2076283000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin and admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 12
+                },
+                {
+                  "val": "admin",
+                  "offset": 22
+                }
+              ],
+              "location": "selenium.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55050400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login",
+            "match": {
+              "location": "selenium.LoginSteps.user_clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18318489300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "selenium.LoginSteps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-17T01:25:56.417Z",
+        "line": 15,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 506639900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is open",
+            "match": {
+              "location": "selenium.LoginSteps.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 445404900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "selenium.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2062152900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin and 123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 12
+                },
+                {
+                  "val": "123",
+                  "offset": 22
+                }
+              ],
+              "location": "selenium.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58053000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login",
+            "match": {
+              "location": "selenium.LoginSteps.user_clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28337434700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "selenium.LoginSteps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
