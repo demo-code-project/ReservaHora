@@ -8,9 +8,7 @@ Feature: Test Add agenda
     Then user enters <username> y <password>
     And user clicks on login1
     Then user is navigated to the home page1
-    And user clicks on agenda
-    Then user es redirigido a la lista de agendas
-    And user pulsa en Registrar nuevo
+    And user navega al formulario registro agenda
     Then user es redirigido al formulario de registro de agenda
     When user ingresa <idMascota> y <fecha>
     And user pulsa en Registrar
