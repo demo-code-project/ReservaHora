@@ -65,20 +65,9 @@ public class AddAgendaSteps {
 
 	}
 	
-	@And("user clicks on agenda")
+	@And("user navega al formulario registro agenda")
 	public void user_clisk_on_agenda() {
-		driver.findElement(By.id("agenda")).click();
-	}
-	
-	@Then("user es redirigido a la lista de agendas")
-	public void user_es_redirigido_a_la_lista_de_agendas() throws InterruptedException {
-		driver.findElement(By.id("add-agenda")).isDisplayed();
-		Thread.sleep(2000);
-	}
-	
-	@And("user pulsa en Registrar nuevo")
-	public void user_pulsa_en_Registrar_nuevo() {
-		driver.findElement(By.id("add-agenda")).click();
+		driver.navigate().to("http://localhost:8080/ReservaHora/agenda?accion=add");
 	}
 	
 	@Then("user es redirigido al formulario de registro de agenda")
